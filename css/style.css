@@ -1,0 +1,160 @@
+
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+    .hackaton-title {
+        font-size: 5em;
+    }
+    .motivatie {
+        font-size: 5em;
+    }
+    .sponsor-dank {
+        font-size: 2em;
+    }
+    .sub-title {
+        font-size: 3em;
+    }
+    .sponsoren-list {
+        font-size: 1.5em;
+    }
+}
+
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .hackaton-title {
+        font-size: 4em;
+    }
+    .motivatie {
+        font-size: 4em;
+    }
+    .sponsor-dank {
+        font-size: 1.75em;
+    }
+    .sub-title {
+        font-size: 2.5em;
+    }
+    .sponsoren-list {
+        font-size: 1.25em;
+    }
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hackaton-title {
+        font-size: 3em;
+    }
+    .motivatie {
+        font-size: 3em;
+    }
+    .sponsor-dank {
+        font-size: 1.5em;
+    }
+    .sub-title {
+        font-size: 2em;
+    }
+    .sponsoren-list {
+        font-size: 1em;
+    }
+}
+
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+    .hackaton-title {
+        font-size: 2em;
+    }
+    .motivatie {
+        font-size: 2em;
+    }
+    .sponsor-dank {
+        font-size: 1.25em;
+    }
+    .sub-title {
+        font-size: 1.5em;
+    }
+    .sponsoren-list {
+        font-size: 0.75em;
+    }
+}
+
+body {
+    color: white;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    flex-flow: column;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.hackaton-title {
+    font-weight: bold;
+    font-family: bebas;
+    /*text-align: right;*/
+    color: white;
+}
+
+@font-face {
+    font-family: bebas;
+    src: url('../fonts/BebasNeue.otf');
+}
+
+.motivatie {
+    font-family: bebas;
+     text-align: center;
+     height: 10%;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+}
+
+.sponsor-dank {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: bebas;
+    height: 10%;
+    justify-content: center;
+}
+
+.sponsoren-list {
+    height: 10%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    font-family: bebas;
+    letter-spacing: 2px;
+}
+
+.video-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    height: 55%;
+}
+
+.sub-title {
+     font-family: bebas;
+     font-style: italic;
+     margin-left: 1%;
+}
+
+.title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+}
+
+.wrapper > img {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    position: absolute;
+}
